@@ -80,19 +80,27 @@ class Queue {
 }
 
 let StackVisualizer = document.getElementById("StackVisualizer");
-let InputAddButton = document.getElementById("InputAddButton");
-let TextInput = document.getElementById("TextInput");
+let InputStackAddButton = document.getElementById("InputStackAddButton");
+let InputStackRemoveButton = document.getElementById("InputStackRemoveButton");
+let StackInput = document.getElementById("StackInput");
 
 let shtack = new Stack();
 
 
-InputAddButton.addEventListener("click", StackPush);
+InputStackAddButton.addEventListener("click", StackPush);
+InputStackRemoveButton.addEventListener("click", StackPop);
 
 function StackPush(){
-    if(TextInput.value != ""){
-        shtack.Push(TextInput.value);
+    if(StackInput.value != ""){
+        shtack.Push(StackInput.value);
         StackVisualizer.innerHTML = shtack.ToHTML();
-        TextInput.value = "";
+        StackInput.value = "";
     }
 }
 
+function StackPop(){
+    if(shtack.Count > 0){
+        shtack.Pop();
+        StackVisualizer.innerHTML = shtack.ToHTML();
+    }
+}

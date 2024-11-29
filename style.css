@@ -112,6 +112,10 @@ body {
     flex-wrap: wrap;
 }
 
+.StackCon{
+    flex-direction: row-reverse;
+}
+
 .Element{
     padding: 3px 12px;
     border-radius: 5px;
