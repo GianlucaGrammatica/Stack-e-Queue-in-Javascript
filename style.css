@@ -1,0 +1,122 @@
+/*Setup*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: "Quicksand", Bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    transition: all 0.3s ease-in;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Body*/
+body {
+    font-family: "Quicksand", Bold;
+    padding: 10px;
+    background-color: #C4D7B2;
+    background-image: linear-gradient(to left, #c4d7b2, #cbdcb7, #d3e1bd, #dae7c2, #e1ecc8);
+}
+
+.Button {
+    padding: 3px 12px;
+    border-radius: 5px;
+    background-color: #A0C49D;
+    border: 2px solid #A0C49D;
+    font-family: "Quicksand", Bold;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.Input {
+    padding: 3px 12px;
+    border-radius: 5px;
+    background-color: #A0C49D;
+    border: 2px solid #A0C49D;
+    font-family: "Quicksand", Bold;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.StackQueueContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.InputsCon{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.ElemntsVisualizerCon {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Element{
+    padding: 3px 12px;
+    border-radius: 5px;
+    background-color: #A0C49D;
+    border: 2px solid #A0C49D;
+    font-family: "Quicksand", Bold;
+    font-weight: bolder;
+}
