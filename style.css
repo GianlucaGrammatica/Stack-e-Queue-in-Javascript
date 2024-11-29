@@ -95,13 +95,14 @@ body {
 .StackQueueContainer{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: space-evenly;
 }
 
 .InputsCon{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
 }
 
